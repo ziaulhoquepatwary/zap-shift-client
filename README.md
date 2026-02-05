@@ -176,3 +176,128 @@ npm install
 # Start server
 npm start
 ```
+### Environment Variables
+
+#### Server (.env)
+```env
+PORT=5000
+MONGODB_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret_key
+JWT_EXPIRES_IN=7d
+STRIPE_SECRET_KEY=your_stripe_secret_key
+CLIENT_URL=http://localhost:5173
+```
+
+#### Client (.env)
+```env
+VITE_API_URL=http://localhost:5000
+VITE_FIREBASE_API_KEY=your_firebase_api_key
+VITE_FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
+VITE_FIREBASE_PROJECT_ID=your_firebase_project_id
+VITE_FIREBASE_STORAGE_BUCKET=your_firebase_storage_bucket
+VITE_FIREBASE_MESSAGING_SENDER_ID=your_firebase_messaging_sender_id
+VITE_FIREBASE_APP_ID=your_firebase_app_id
+VITE_STRIPE_PUBLIC_KEY=your_stripe_public_key
+```
+
+---
+
+## 📱 User Roles & Permissions
+
+| Feature | User | Rider | Admin |
+|---------|------|-------|-------|
+| Book Parcel | ✅ | ✅ | ✅ |
+| Track Parcel | ✅ | ✅ | ✅ |
+| Apply as Rider | ✅ | - | - |
+| Deliver Parcels | - | ✅ | - |
+| View Income | - | ✅ | ✅ |
+| Assign Riders | - | - | ✅ |
+| Approve Riders | - | - | ✅ |
+| Create Admin | - | - | ✅ |
+
+---
+
+## 🎨 Design Highlights
+
+- **Responsive Design:** Fully responsive across all devices
+- **Modern UI:** Clean and intuitive user interface
+- **Real-time Updates:** Live tracking and status notifications
+- **Interactive Maps:** Leaflet integration for location visualization
+- **Smooth Animations:** Enhanced user experience with Swiper
+- **Toast Notifications:** Real-time feedback for user actions
+- **Beautiful Alerts:** SweetAlert2 for confirmations and warnings
+
+---
+
+## 📸 Screenshots
+_Add your project screenshots here to showcase the UI/UX_
+
+### Suggested Screenshots:
+- Homepage
+- User Dashboard
+- Parcel Booking Form
+- Payment Page
+- Tracking Interface
+- Rider Dashboard
+- Admin Panel
+
+---
+
+## 🔒 Security Features
+
+- JWT-based authentication
+- Secure password hashing
+- Role-based access control (RBAC)
+- Protected API routes
+- Secure payment processing via Stripe
+- Firebase authentication integration
+
+---
+
+## 🌟 Future Enhancements
+
+- [ ] Push notifications for status updates
+- [ ] Multi-language support
+- [ ] SMS notifications
+- [ ] Rating and review system
+- [ ] Advanced analytics dashboard
+- [ ] Automated rider assignment algorithm
+- [ ] Customer support chat system
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/ziaul-hoque4820/zap-shift-client/issues).
+
+### Steps to Contribute:
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+---
+
+## 👨‍💻 Developer
+
+**Ziaul Hoque**
+- GitHub: [@ziaul-hoque4820](https://github.com/ziaul-hoque4820)
+
+---
+
+## 🙏 Acknowledgments
+
+- Thanks to all the open-source libraries and frameworks used in this project
+- Special thanks to the development community for continuous support
+- Inspired by modern delivery management systems
+
+---
+
+## 📞 Support
+
+For support, email ziaul.dev@gmail.com or create an issue in the repository.
+
+---
+
+**Made with ❤️ by Ziaul Hoque**
