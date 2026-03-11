@@ -24,8 +24,8 @@ Want to explore all features? Use these credentials to test different user roles
 > **Note:** You can use these demo accounts to explore rider and admin dashboards without creating new accounts.
 
 ## 📦 Repository Links
-- **Client Side:** [GitHub Repository](https://github.com/ziaul-hoque4820/zap-shift-client.git)
-- **Server Side:** [GitHub Repository](https://github.com/ziaul-hoque4820/zap-shift-server.git)
+- **Client Side:** [GitHub Repository](https://github.com/ziaulhoquepatwary/zap-shift-client.git)
+- **Server Side:** [GitHub Repository](https://github.com/ziaulhoquepatwary/zap-shift-server.git)
 
 ---
 
@@ -143,7 +143,7 @@ Want to explore all features? Use these credentials to test different user roles
 #### Client Side Setup
 ```bash
 # Clone the repository
-git clone https://github.com/ziaul-hoque4820/zap-shift-client.git
+git clone https://github.com/ziaulhoquepatwary/zap-shift-client.git
 
 # Navigate to project directory
 cd zap-shift-client
@@ -163,7 +163,7 @@ npm run dev
 #### Server Side Setup
 ```bash
 # Clone the repository
-git clone https://github.com/ziaul-hoque4820/zap-shift-server.git
+git clone https://github.com/ziaulhoquepatwary/zap-shift-server.git
 
 # Navigate to project directory
 cd zap-shift-server
@@ -268,7 +268,7 @@ _Add your project screenshots here to showcase the UI/UX_
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/ziaul-hoque4820/zap-shift-client/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/ziaulhoquepatwary/zap-shift-client.git).
 
 ### Steps to Contribute:
 1. Fork the repository
@@ -282,7 +282,7 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 ## 👨‍💻 Developer
 
 **Ziaul Hoque**
-- GitHub: [@ziaul-hoque4820](https://github.com/ziaul-hoque4820)
+- GitHub: [@ziaulhoquepatwary](https://github.com/ziaulhoquepatwary)
 
 ---
 
